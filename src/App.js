@@ -9,7 +9,6 @@ import { useEffect } from 'react';
 import useAxiosFetch from './hooks/useAxiosFetch';
 import EditPost from './EditPost';
 import { useStoreActions } from 'easy-peasy';
-import { set } from 'date-fns';
 
 function App() {
   const setPosts = useStoreActions((actions) => actions.setPosts)
